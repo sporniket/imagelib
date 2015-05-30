@@ -1,6 +1,6 @@
 #Sporniket Image Library
 
-Utility librarie to manipulate images and images files.
+Utility libraries to manipulate images and images files.
 
 ```
     Sporniket Image Library is free software: you can redistribute it and/or modify
