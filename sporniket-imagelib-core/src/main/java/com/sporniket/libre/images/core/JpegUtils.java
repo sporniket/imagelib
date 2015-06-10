@@ -16,8 +16,8 @@ import com.sporniket.libre.images.core.ImageFileUtils.ReaderNotFoundException;
  * 
  * @author dsporn
  *
- * @version 0-SNAPSHOT
- * @since 0-SNAPSHOT
+ * @version 15.06.00-SNAPSHOT
+ * @since 15.06.00-SNAPSHOT
  */
 public class JpegUtils
 {

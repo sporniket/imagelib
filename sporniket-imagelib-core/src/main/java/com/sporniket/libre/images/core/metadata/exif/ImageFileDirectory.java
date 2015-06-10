@@ -10,7 +10,7 @@ import com.sporniket.libre.lang.DataTools;
  * <p>
  * &copy; Copyright 2013 David Sporn
  * </p>
- * <hr />
+ * <hr>
  * 
  * <p>
  * This file is part of <i>The Sporniket Image Library &#8211; core</i>.
@@ -27,14 +27,14 @@ import com.sporniket.libre.lang.DataTools;
  * 
  * <p>
  * You should have received a copy of the GNU Lesser General Public License along with <i>The Sporniket Image Library &#8211;
- * core</i>. If not, see <http://www.gnu.org/licenses/>. 2
+ * core</i>. If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>. 2
  * 
- * <hr />
+ * <hr>
  * 
- * @author David SPORN <david.sporn@sporniket.com>
+ * @author David SPORN
  * 
- * @version 0-SNAPSHOT
- * @since 0-SNAPSHOT
+ * @version 15.06.00-SNAPSHOT
+ * @since 15.06.00-SNAPSHOT
  * 
  */
 final class ImageFileDirectory
@@ -65,7 +65,7 @@ final class ImageFileDirectory
 		/**
 		 * If the tag contains a short string value (less than 4 bytes), stores it in this field.
 		 * 
-		 * @since 0-SNAPSHOT
+		 * @since 15.06.00-SNAPSHOT
 		 */
 		private String myShortStringValue;
 
@@ -73,7 +73,7 @@ final class ImageFileDirectory
 		 * Get shortStringValue.
 		 * 
 		 * @return the shortStringValue
-		 * @since 0-SNAPSHOT
+		 * @since 15.06.00-SNAPSHOT
 		 */
 		public String getShortStringValue()
 		{

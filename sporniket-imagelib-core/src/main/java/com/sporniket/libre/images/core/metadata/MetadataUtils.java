@@ -20,7 +20,7 @@ import com.sporniket.libre.images.core.JpegUtils;
  * <p>
  * &copy; Copyright 2013 David Sporn
  * </p>
- * <hr />
+ * <hr>
  * 
  * <p>
  * This file is part of <i>The Sporniket Image Library &#8211; core</i>.
@@ -37,14 +37,14 @@ import com.sporniket.libre.images.core.JpegUtils;
  * 
  * <p>
  * You should have received a copy of the GNU Lesser General Public License along with <i>The Sporniket Image Library &#8211;
- * core</i>. If not, see <http://www.gnu.org/licenses/>. 2
+ * core</i>. If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>. 2
  * 
- * <hr />
+ * <hr>
  * 
- * @author David SPORN <david.sporn@sporniket.com>
+ * @author David SPORN
  * 
- * @version 0-SNAPSHOT
- * @since 0-SNAPSHOT
+ * @version 15.06.00-SNAPSHOT
+ * @since 15.06.00-SNAPSHOT
  */
 public class MetadataUtils
 {
@@ -52,11 +52,15 @@ public class MetadataUtils
 	 * Macro to get the metadata as provided by the ImageIO API.
 	 * 
 	 * @param resource
+	 *            the file to read.
 	 * @return
 	 * @throws ReaderNotFoundException
+	 *             if an ImageReader is not found.
 	 * @throws FileNotFoundException
+	 *             if the file is not found.
 	 * @throws IOException
-	 * @since 0-SNAPSHOT
+	 *             if there is a problem.
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	public static IIOMetadata extractMetadata(File resource) throws ReaderNotFoundException, FileNotFoundException, IOException
 	{

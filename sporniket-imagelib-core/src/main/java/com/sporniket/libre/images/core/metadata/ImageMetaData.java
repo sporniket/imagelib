@@ -13,7 +13,7 @@ import java.awt.Dimension;
  * <p>
  * &copy; Copyright 2013 David Sporn
  * </p>
- * <hr />
+ * <hr>
  * 
  * <p>
  * This file is part of <i>The Sporniket Image Library &#8211; core</i>.
@@ -30,35 +30,35 @@ import java.awt.Dimension;
  * 
  * <p>
  * You should have received a copy of the GNU Lesser General Public License along with <i>The Sporniket Image Library &#8211;
- * core</i>. If not, see <http://www.gnu.org/licenses/>. 2
+ * core</i>. If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>. 2
  * 
- * <hr />
+ * <hr>
  * 
- * @author David SPORN <david.sporn@sporniket.com>
+ * @author David SPORN
  * 
- * @version 0-SNAPSHOT
- * @since 0-SNAPSHOT
+ * @version 15.06.00-SNAPSHOT
+ * @since 15.06.00-SNAPSHOT
  */
 public class ImageMetaData
 {
 	/**
 	 * Image orientation.
 	 * 
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	private Orientation myImageOrientation;
 
 	/**
 	 * Dimensions of the image after applying {@link #getImageOrientation()}.
 	 * 
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	private Dimension myRotatedDimensions;
 
 	/**
 	 * Dimension of the unrotated image.
 	 * 
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	private Dimension myUnrotatedDimension;
 
@@ -74,7 +74,7 @@ public class ImageMetaData
 	 * Get rotatedDimensions.
 	 * 
 	 * @return the rotatedDimensions
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	public Dimension getRotatedDimensions()
 	{
@@ -85,7 +85,7 @@ public class ImageMetaData
 	 * Get unrotatedDimension.
 	 * 
 	 * @return the unrotatedDimension
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	public Dimension getUnrotatedDimension()
 	{
@@ -97,7 +97,7 @@ public class ImageMetaData
 	 * 
 	 * @param imageOrientation
 	 *            the new value of imageOrientation.
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	public void setImageOrientation(Orientation imageOrientation)
 	{
@@ -119,7 +119,7 @@ public class ImageMetaData
 	 * 
 	 * @param rotatedDimensions
 	 *            the new value of rotatedDimensions.
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	private void setRotatedDimensions(Dimension rotatedDimensions)
 	{
@@ -131,7 +131,7 @@ public class ImageMetaData
 	 * 
 	 * @param unrotatedDimension
 	 *            the new value of unrotatedDimension.
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	public void setUnrotatedDimension(Dimension unrotatedDimension)
 	{
@@ -142,7 +142,7 @@ public class ImageMetaData
 	/**
 	 * Apply the rotation to the image dimensions.
 	 * 
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	private void updateRotatedDimension()
 	{

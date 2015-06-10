@@ -12,7 +12,7 @@ import javax.imageio.metadata.IIOMetadata;
  * <p>
  * &copy; Copyright 2013 David Sporn
  * </p>
- * <hr />
+ * <hr>
  * 
  * <p>
  * This file is part of <i>The Sporniket Image Library &#8211; core</i>.
@@ -29,14 +29,14 @@ import javax.imageio.metadata.IIOMetadata;
  * 
  * <p>
  * You should have received a copy of the GNU Lesser General Public License along with <i>The Sporniket Image Library &#8211;
- * core</i>. If not, see <http://www.gnu.org/licenses/>. 2
+ * core</i>. If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>. 2
  * 
- * <hr />
+ * <hr>
  * 
- * @author David SPORN <david.sporn@sporniket.com>
+ * @author David SPORN
  * 
- * @version 0-SNAPSHOT
- * @since 0-SNAPSHOT
+ * @version 15.06.00-SNAPSHOT
+ * @since 15.06.00-SNAPSHOT
  */
 public class ImageIoMetadataExtractor implements ImageMetaDataExtractor<IIOMetadata>
 {

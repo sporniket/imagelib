@@ -9,7 +9,7 @@ package com.sporniket.libre.images.core.metadata;
  * <p>
  * &copy; Copyright 2013 David Sporn
  * </p>
- * <hr />
+ * <hr>
  * 
  * <p>
  * This file is part of <i>The Sporniket Image Library &#8211; core</i>.
@@ -26,15 +26,15 @@ package com.sporniket.libre.images.core.metadata;
  * 
  * <p>
  * You should have received a copy of the GNU Lesser General Public License along with <i>The Sporniket Image Library &#8211;
- * core</i>. If not, see <http://www.gnu.org/licenses/>. 2
+ * core</i>. If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>. 2
  * 
- * <hr />
+ * <hr>
  * 
- * @author David SPORN <david.sporn@sporniket.com>
+ * @author David SPORN
  * 
- * @version 0-SNAPSHOT
- * @since 0-SNAPSHOT
- * @see http://sylvana.net/jpegcrop/exif_orientation.html
+ * @version 15.06.00-SNAPSHOT
+ * @since 15.06.00-SNAPSHOT
+ * @see <a href="http://sylvana.net/jpegcrop/exif_orientation.html">http://sylvana.net/jpegcrop/exif_orientation.html</a>
  */
 public enum Orientation
 {
@@ -49,7 +49,7 @@ public enum Orientation
 	/**
 	 * Map exif value to an Orientation value.
 	 * 
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	public static final Orientation[] FROM_EXIF_VALUE =
 	{
@@ -68,28 +68,28 @@ public enum Orientation
 	/**
 	 * Rotation angle in radians.
 	 * 
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	private final double myRotationAngle;
 
 	/**
 	 * Horizontal scale factor, for mirroring.
 	 * 
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	private final double myScaleX;
 
 	/**
 	 * Flag that is <code>true</code> if the orientation require a rotation of 90 or 270 degrees (+/-90 degrees).
 	 * 
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	private final boolean myQuarterTurnRequired;
 
 	/**
 	 * Corresponding exif value.
 	 * 
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	private final int myExifValue;
 
@@ -97,7 +97,7 @@ public enum Orientation
 	 * Get exifValue.
 	 * 
 	 * @return the exifValue
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	public int getExifValue()
 	{
@@ -106,7 +106,7 @@ public enum Orientation
 
 	/**
 	 * @return the quarterTurnRequired
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	public boolean isQuarterTurnRequired()
 	{
@@ -115,7 +115,7 @@ public enum Orientation
 
 	/**
 	 * @return the scaleX
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	public double getScaleX()
 	{
@@ -127,7 +127,7 @@ public enum Orientation
 	 * @param scaleX
 	 * @param quarterTurnRequired
 	 * @param exifValue
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	private Orientation(double rotationAngle, double scaleX, boolean quarterTurnRequired, int exifValue)
 	{
@@ -139,7 +139,7 @@ public enum Orientation
 
 	/**
 	 * @return the rotationAngle
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	public double getRotationAngle()
 	{

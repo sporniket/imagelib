@@ -35,7 +35,7 @@ import com.sporniket.libre.lang.DataTools;
  * <p>
  * &copy; Copyright 2013 David Sporn
  * </p>
- * <hr />
+ * <hr>
  * 
  * <p>
  * This file is part of <i>The Sporniket Image Library &#8211; core</i>.
@@ -52,16 +52,16 @@ import com.sporniket.libre.lang.DataTools;
  * 
  * <p>
  * You should have received a copy of the GNU Lesser General Public License along with <i>The Sporniket Image Library &#8211;
- * core</i>. If not, see <http://www.gnu.org/licenses/>. 2
+ * core</i>. If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>. 2
  * 
- * <hr />
+ * <hr>
  * 
- * @author David SPORN <david.sporn@sporniket.com>
+ * @author David SPORN
  * 
- * @version 0-SNAPSHOT
- * @since 0-SNAPSHOT
- * @see http://www.media.mit.edu/pia/Research/deepview/exif.html
- * @see http://www.awaresystems.be/imaging/tiff/tifftags.html
+ * @version 15.06.00-SNAPSHOT
+ * @since 15.06.00-SNAPSHOT
+ * @see <a href="http://www.media.mit.edu/pia/Research/deepview/exif.html">http://www.media.mit.edu/pia/Research/deepview/exif.html</a>
+ * @see <a href="http://www.awaresystems.be/imaging/tiff/tifftags.html">http://www.awaresystems.be/imaging/tiff/tifftags.html</a>
  */
 public class BasicExifImageMetaDataExtractor implements ImageMetaDataExtractor<IIOMetadata>
 {
@@ -116,12 +116,12 @@ public class BasicExifImageMetaDataExtractor implements ImageMetaDataExtractor<I
 	/**
 	 * Utility method to extract directly from a file, when you do not need to keep {@link IIOMetadata} nodes.
 	 * 
-	 * @param resource
-	 * @param metaData
-	 * @return
-	 * @throws IOException
+	 * @param resource the file to read.
+	 * @param metaData the metadata to populate.
+	 * @return the populated metadata.
+	 * @throws IOException when there is a problem.
 	 * @throws ImageMetaDataException
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	public ImageMetaData appendFromResource(File resource, ImageMetaData metaData) throws IOException, ImageMetaDataException
 	{
@@ -140,11 +140,11 @@ public class BasicExifImageMetaDataExtractor implements ImageMetaDataExtractor<I
 	}
 
 	/**
-	 * @param resource
-	 * @param metaData
-	 * @return
-	 * @throws ImageMetaDataException
-	 * @since 0-SNAPSHOT
+	 * @param resource metadata source.
+	 * @param metaData metadata to populate.
+	 * @return the populated metadata.
+	 * @throws ImageMetaDataException when there is a problem.
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	public ImageMetaData appendFromResource(IIOMetadata resource, ImageMetaData metaData) throws ImageMetaDataException,
 			ImageMetaDataException
@@ -274,7 +274,7 @@ public class BasicExifImageMetaDataExtractor implements ImageMetaDataExtractor<I
 	/**
 	 * Gathers all descendant nodes that may contains exif data.
 	 * 
-	 * @param rootNode
+	 * @param rootNode the root node.
 	 * @return a list of possible container of the exif data.
 	 */
 	private List<IIOMetadataNode> findExifContainerCandidates(IIOMetadataNode rootNode)

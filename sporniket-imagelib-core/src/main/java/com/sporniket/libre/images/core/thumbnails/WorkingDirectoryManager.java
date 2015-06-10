@@ -13,7 +13,7 @@ import com.sporniket.libre.io.FileTools;
  * <p>
  * &copy; Copyright 2013 David Sporn
  * </p>
- * <hr />
+ * <hr>
  * 
  * <p>
  * This file is part of <i>The Sporniket Image Library &#8211; core</i>.
@@ -30,14 +30,14 @@ import com.sporniket.libre.io.FileTools;
  * 
  * <p>
  * You should have received a copy of the GNU Lesser General Public License along with <i>The Sporniket Image Library &#8211;
- * core</i>. If not, see <http://www.gnu.org/licenses/>. 2
+ * core</i>. If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>. 2
  * 
- * <hr />
+ * <hr>
  * 
- * @author David SPORN <david.sporn@sporniket.com>
+ * @author David SPORN
  * 
- * @version 0-SNAPSHOT
- * @since 0-SNAPSHOT
+ * @version 15.06.00-SNAPSHOT
+ * @since 15.06.00-SNAPSHOT
  */
 public interface WorkingDirectoryManager
 {
@@ -46,23 +46,23 @@ public interface WorkingDirectoryManager
 	 * 
 	 * @author dsporn
 	 * 
-	 * @version 0-SNAPSHOT
-	 * @since 0-SNAPSHOT
+	 * @version 15.06.00-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	public static class SimpleManager implements WorkingDirectoryManager
 	{
 		/**
 		 * Working directory.
 		 * 
-		 * @since 0-SNAPSHOT
+		 * @since 15.06.00-SNAPSHOT
 		 */
 		private File myWorkingDirectory;
 
 		/**
 		 * Get workingDirectory.
 		 * 
-		 * @return the workingDirectory
-		 * @since 0-SNAPSHOT
+		 * @return the workingDirectory.
+		 * @since 15.06.00-SNAPSHOT
 		 */
 		public File getWorkingDirectory()
 		{
@@ -70,8 +70,8 @@ public interface WorkingDirectoryManager
 		}
 
 		/**
-		 * @param workingDirectory
-		 * @since 0-SNAPSHOT
+		 * @param workingDirectory the working directory.
+		 * @since 15.06.00-SNAPSHOT
 		 */
 		public SimpleManager(File workingDirectory)
 		{
@@ -81,8 +81,8 @@ public interface WorkingDirectoryManager
 		/**
 		 * Change the workingDirectory.
 		 * 
-		 * @param workingDirectory
-		 * @since 0-SNAPSHOT
+		 * @param workingDirectory the working directory.
+		 * @since 15.06.00-SNAPSHOT
 		 */
 		private void setWorkingDirectory(File workingDirectory)
 		{
@@ -99,7 +99,7 @@ public interface WorkingDirectoryManager
 		 * 
 		 * @see com.sporniket.libre.images.core.thumbnails.ThumbnailWorkingDirectoryManager#getStorageDirectory(java.lang.String)
 		 * 
-		 * @since 0-SNAPSHOT
+		 * @since 15.06.00-SNAPSHOT
 		 */
 		public File getStorageDirectory(String thumbnailFileName)
 		{
@@ -114,9 +114,9 @@ public interface WorkingDirectoryManager
 	 * <p>
 	 * This allow file balancing.
 	 * 
-	 * @param thumbnailFileName
+	 * @param thumbnailFileName the name of the thumbnail.
 	 * @return a descriptor for a directory, to create using {@link File#mkdirs()}.
-	 * @since 0-SNAPSHOT
+	 * @since 15.06.00-SNAPSHOT
 	 */
 	public File getStorageDirectory(String thumbnailFileName);
 }
